@@ -112,9 +112,9 @@ print(f"Writing data to {output_blues}...")
 
 dr.to_excel(output_reds, index=False, engine='openpyxl')
 
-dr.to_excel(output_greens, index=False, engine='openpyxl')
+dg.to_excel(output_greens, index=False, engine='openpyxl')
 
-dr.to_excel(output_blues, index=False, engine='openpyxl')
+db.to_excel(output_blues, index=False, engine='openpyxl')
 
  
 
